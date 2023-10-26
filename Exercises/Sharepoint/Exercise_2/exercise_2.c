@@ -1,5 +1,5 @@
 /*
-    Name: exercise_1.c
+    Name: exercise_2.c
     Author: Levin Baenninger
     Date: 26.10.2023
     Version: 1.0

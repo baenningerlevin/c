@@ -22,4 +22,6 @@ int main()
 
     printf("\nThe area is: %.2f\n", area);
     printf("The circumfrence is: %.2f\n", circumfrence);
+
+    return 0;
 }

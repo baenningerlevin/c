@@ -9,15 +9,19 @@
 
 int main() {
     // Calculate Area of a Triangle
+    // Declaring Variables
     float baseline, height, area;
 
+    // Getting input from user
     printf("What is the length of the baseline? ");
     scanf("%f", &baseline);
     printf("What is the length of the height? ");
     scanf("%f", &height);
 
+    // Calculating area
     area = baseline * height / 2;
 
+    // Printing results
     printf("\nThe area is: %.2f\n", area);
 
     return 0;

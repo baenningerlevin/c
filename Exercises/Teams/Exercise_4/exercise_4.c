@@ -2,7 +2,7 @@
     Name: exercise_4.c
     Author: Levin Baenninger
     Date: 27.10.2023
-    Version: 2.0
+    Version: 2.1
 */
 
 #include <stdio.h>
@@ -15,11 +15,14 @@ int main()
     // Declaring Variables
     int randnum, guess, count, difficulty;
 
-    // TODO: Type checker
-
     // Get user input
     printf("Welcome to the number guessing game! Which number should be the maximum? ");
-    scanf("%d", &difficulty);
+    // Check if input is number, if not program "crashes"
+    if (scanf("%d", &difficulty) != 1)
+    {
+        printf("This is not a number. Exit program...");
+        return EXIT_FAILURE;
+    }
 
     // Calculate random number
     srand(time(NULL));
@@ -29,14 +32,27 @@ int main()
     do
     {
         printf("\nPlease type in your guess: ");
-        scanf("%d", &guess);
-        count++;
+        if (scanf("%d", &guess) != 1)
+        {
+            printf("This is not a number.");
+            return EXIT_FAILURE;
+        }
 
-        if (guess < randnum)
+        if (guess < randnum && guess <= difficulty)
+        {
             printf("\nRandom number is bigger!");
-        else if (guess > randnum)
+            count++;
+        }
+        else if (guess > randnum && guess <= difficulty)
+        {
             printf("\nRandom number is smaller!");
+            count++;
+        }
+        else
+            printf("\nYour number is bigger than your maximum number!");
     } while (guess != randnum);
 
     printf("\nYou have found the random number! It took you %d guesses.", count);
+
+    return 0;
 }

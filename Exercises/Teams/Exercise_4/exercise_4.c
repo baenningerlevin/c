@@ -2,7 +2,7 @@
     Name: exercise_4.c
     Author: Levin Baenninger
     Date: 27.10.2023
-    Version: 1.1
+    Version: 2.0
 */
 
 #include <stdio.h>
@@ -26,21 +26,17 @@ int main()
     randnum = rand() % difficulty + 1;
 
     // Get user input
-    printf("\nPlease type in your first guess: ");
-    scanf("%d", &guess);
-    count++;
-
-    while (guess != randnum)
+    do
     {
+        printf("\nPlease type in your guess: ");
+        scanf("%d", &guess);
+        count++;
+
         if (guess < randnum)
             printf("\nRandom number is bigger!");
         else if (guess > randnum)
             printf("\nRandom number is smaller!");
-
-        printf("\nPlease type in your guess: ");
-        scanf("%d", &guess);
-        count++;
-    }
+    } while (guess != randnum);
 
     printf("\nYou have found the random number! It took you %d guesses.", count);
 }

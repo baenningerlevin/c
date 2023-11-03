@@ -21,7 +21,7 @@ int main()
     for (i = 0; string[i] != '\0'; i++)
     {
         lettercount++;
-        if (string[i] == ' ')
+        if (string[i] == ' ' && string[i + 1] != ' ')
         {
             wordcount++;
             lettercount--;

@@ -2,7 +2,7 @@
     Name: exercise_6.c
     Author: Levin Baenninger
     Date: 02.11.2023
-    Version: 1.0
+    Version: 1.1
 */
 
 #include <stdio.h>
@@ -12,11 +12,18 @@
 int main()
 {
     // Declaration
-    float interest, capital, period, compound;
+    float interest, startCapital, targetCapital, period;
 
     // Input
     printf("What's the start capital? ");
-    if (scanf("%f", &capital) != 1)
+    if (scanf("%f", &startCapital) != 1)
+    {
+        printf("Not a valid integer. Exit program...");
+        return EXIT_FAILURE;
+    }
+
+    printf("What's your target capital? ");
+    if (scanf("%f", &targetCapital) != 1)
     {
         printf("Not a valid integer. Exit program...");
         return EXIT_FAILURE;
@@ -29,16 +36,13 @@ int main()
         return EXIT_FAILURE;
     }
 
-    printf("Investment period (in years): ");
-    if (scanf("%f", &period) != 1)
-    {
-        printf("Not a valid integer. Exit program...");
-        return EXIT_FAILURE;
-    }
 
     // Calculations
-    compound = capital * pow((1 + (interest / 100)), period);
+    while (startCapital <= targetCapital) {
+        startCapital = startCapital * (1 + (interest / 100));
+        period++;
+    }
 
     // Output
-    printf("The compound interest is: %.2f", compound);
+    printf("\nTo make more than %.0f$, it will take about %.0f years", targetCapital, period);
 }

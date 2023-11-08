@@ -29,12 +29,22 @@ for (initializationStatement; testExpression; updateStatement)
 
 ### while, do..while Loop und break, continue
 
-![while](while_do_while_02.png)
-![while](while_do_while_03.png)
-![while](while_do_while_04.png)
-![while](while_do_while_05.png)
-![while](while_do_while_06.png)
-![while](while_do_while_07.png)
-![while](while_do_while_08.png)
-![while](while_do_while_09.png)
-![while](while_do_while_10.png)
+![while_1](while_do_while_01.png)
+
+![while_2](while_do_while_02.png)
+
+![while_3](while_do_while_03.png)
+
+![while_4](while_do_while_04.png)
+
+![while_5](while_do_while_05.png)
+
+![while_6](while_do_while_06.png)
+
+![while_7](while_do_while_07.png)
+
+![while_8](while_do_while_08.png)
+
+![while_9](while_do_while_09.png)
+
+![while_10](while_do_while_10.png)

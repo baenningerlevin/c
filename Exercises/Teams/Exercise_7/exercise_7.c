@@ -1,201 +1,73 @@
-/*
-    Name: exercise_7.c
-    Author: Levin Baenninger
-    Date: 02.11.2023
-    Version: 1.0
-*/
-
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
-    int year, i, j;
+	// Declaration
+	int year, month, day, resultScanf;
+	char monthName[12][10] = {"Januar", "Februar", "Maerz", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"};
+	char daysInMonth[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
-    // Get userinput
-    printf("For what year do you want to print the Calendar? ");
-    if (scanf("%d", &year) != 1)
-    {
-        printf("Not a valid year. Exit program...");
-        return EXIT_FAILURE;
-    }
+	// Input
+	do
+	{
+		printf("Für welches Jahr möchtest du den Kalender (in Ziffern)? ");
+		resultScanf = scanf("%d", &year);
 
-    for (i = 1; i <= 12; i++)
-    {
-        switch (i)
-        {
-        case 1:
-            printf("\nJanuar\n");
-            for (j = 1; j <= 31; j++)
-            {
-                printf("%d\t", j);
+		// Clear the input buffer in case of non-numeric input
+		while (getchar() != '\n')
+			;
 
-                if (j % 7 == 0)
-                {
-                    printf("\n");
-                }
-            }
-            break;
+	} while (resultScanf != 1);
 
-        case 2:
-            printf("\nFebruar\n");
-            if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
-            {
-                for (j = 1; j <= 29; j++)
-                {
-                    printf("%d\t", j);
+	// Output
+	for (month = 1; month <= 12; month++)
+	{
+		// Print Month
+		printf("\n\n%s", monthName[month - 1]);
+		printf("\n----------------------------------------------------\n");
 
-                    if (j % 7 == 0)
-                    {
-                        printf("\n");
-                    }
-                }
-                printf("\n");
-            }
-            else
-            {
-                for (j = 1; j <= 28; j++)
-                {
-                    printf("%d\t", j);
+		// Loop through days
+		// Check if february
+		if (month == 2)
+		{
+			// Check for leap year
+			if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
+			{
+				for (day = 1; day <= 29; day++)
+				{
+					printf("%d\t", day);
 
-                    if (j % 7 == 0)
-                    {
-                        printf("\n");
-                    }
-                }
-            }
+					if (day % 7 == 0)
+					{
+						printf("\n");
+					}
+				}
+			}
+			else
+			{
+				for (day = 1; day <= 28; day++)
+				{
+					printf("%d\t", day);
 
-        case 3:
-            printf("\nMaerz\n");
-            for (j = 1; j <= 31; j++)
-            {
-                printf("%d\t", j);
+					if (day % 7 == 0)
+					{
+						printf("\n");
+					}
+				}
+			}
+		}
+		// Every month other than february
+		else
+		{
+			for (day = 1; day <= daysInMonth[month - 1]; day++)
+			{
+				printf("%d\t", day);
 
-                if (j % 7 == 0)
-                {
-                    printf("\n");
-                }
-            }
-            break;
-
-        case 4:
-            printf("\nApril\n");
-            for (j = 1; j <= 30; j++)
-            {
-                printf("%d\t", j);
-
-                if (j % 7 == 0)
-                {
-                    printf("\n");
-                }
-            }
-            break;
-
-        case 5:
-            printf("\nMai\n");
-            for (j = 1; j <= 31; j++)
-            {
-                printf("%d\t", j);
-
-                if (j % 7 == 0)
-                {
-                    printf("\n");
-                }
-            }
-            break;
-
-        case 6:
-            printf("\nJuni\n");
-            for (j = 1; j <= 30; j++)
-            {
-                printf("%d\t", j);
-
-                if (j % 7 == 0)
-                {
-                    printf("\n");
-                }
-            }
-            break;
-
-        case 7:
-            printf("\nJuli\n");
-            for (j = 1; j <= 31; j++)
-            {
-                printf("%d\t", j);
-
-                if (j % 7 == 0)
-                {
-                    printf("\n");
-                }
-            }
-            break;
-
-        case 8:
-            printf("\nAugust\n");
-            for (j = 1; j <= 31; j++)
-            {
-                printf("%d\t", j);
-
-                if (j % 7 == 0)
-                {
-                    printf("\n");
-                }
-            }
-            break;
-
-        case 9:
-            printf("\nSeptember\n");
-            for (j = 1; j <= 30; j++)
-            {
-                printf("%d\t", j);
-
-                if (j % 7 == 0)
-                {
-                    printf("\n");
-                }
-            }
-            break;
-
-        case 10:
-            printf("\nOktober\n");
-            for (j = 1; j <= 31; j++)
-            {
-                printf("%d\t", j);
-
-                if (j % 7 == 0)
-                {
-                    printf("\n");
-                }
-            }
-            break;
-
-        case 11:
-            printf("\nNovember\n");
-            for (j = 1; j <= 30; j++)
-            {
-                printf("%d\t", j);
-
-                if (j % 7 == 0)
-                {
-                    printf("\n");
-                }
-            }
-            break;
-
-        case 12:
-            printf("\nDezember\n");
-            for (j = 1; j <= 31; j++)
-            {
-                printf("%d\t", j);
-
-                if (j % 7 == 0)
-                {
-                    printf("\n");
-                }
-            }
-            break;
-        }
-
-        printf("\n");
-    }
+				if (day % 7 == 0)
+				{
+					printf("\n");
+				}
+			}
+		}
+	}
 }

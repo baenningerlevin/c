@@ -1,2 +1,0 @@
-# C Struct &amp; Pointers
-

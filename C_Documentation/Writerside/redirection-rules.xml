@@ -18,4 +18,8 @@
         <description>Created after removal of "Der Datentyp struct" from Help Instance</description>
         <accepts>struct.html</accepts>
     </rule>
+    <rule id="51f0f6ff">
+        <description><![CDATA[Created after removal of "C Struct & Pointers" from C und Git]]></description>
+        <accepts>C-Struct-Pointers.html</accepts>
+    </rule>
 </rules>

@@ -1,5 +1,7 @@
 # Pointers
 
+<show-structure depth="2" />
+
 Pointers gibt es nur in C und C++ und können sehr nützlich sein. Zuerst müssen wir aber etwas über Adressen lernen.
 
 ## Adressen in C

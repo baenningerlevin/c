@@ -1,14 +1,7 @@
 # Kontrollstrukturen
 
-## Verzweigungen
+Mit Kontrollstrukturen kann man den Ablauf eines Programmes steuern. Es gibt:
+- Verzweigungen
+- Loops
 
-### if
-
-Die Syntax eines `if`-Statements sieht folgendermassen aus:
-
-```C
-if (test expression)
-{
-	//code
-}
-```
+Unter diesen beiden Kategorien gibt es noch jenste Unterkategorieren.

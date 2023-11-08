@@ -1,5 +1,7 @@
 # Mathematik
 
+<show-structure depth="2" />
+
 In C gibt es drei verschiedene Arten von Operatoren und eine ganze Mathematikbibliothek.
 
 ## Mathematische Operatoren

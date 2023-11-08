@@ -1,5 +1,7 @@
 # Input-Output (I/O)
 
+<show-structure depth="2" />
+
 ## Output
 
 Um in C etwas in die Konsole auszugeben, benutzt man hauptsächlich die `printf()`-Funktion.

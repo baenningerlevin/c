@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="Help Instance"
+                 name="C und Git"
                  start-page="Einfuehrung-und-Installation.md">
 
     <toc-element topic="Einfuehrung-und-Installation.md"/>
@@ -15,9 +15,16 @@
         <toc-element topic="Input-Output.md"/>
         <toc-element topic="Kommentare.md"/>
         <toc-element topic="Variablen.md"/>
-        <toc-element topic="Datentypen.md"/>
+        <toc-element topic="Datentypen.md">
+            <toc-element topic="Spezielle-Verhaltensweisen.md"/>
+            <toc-element topic="struct.md"/>
+        </toc-element>
         <toc-element topic="Mathematik.md"/>
+        <toc-element topic="Kontrollstrukturen.md">
+            <toc-element topic="Loop.md"/>
+            <toc-element topic="Verzweigungen.md"/>
+        </toc-element>
         <toc-element topic="Pointers.md"/>
+        <toc-element topic="Funktionen.md"/>
     </toc-element>
-    <toc-element topic="Kontrollstrukturen.md"/>
 </instance-profile>

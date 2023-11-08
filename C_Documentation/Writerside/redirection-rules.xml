@@ -14,4 +14,8 @@
         <description>Created after removal of "How to" from Help Instance</description>
         <accepts>How-to.html</accepts>
     </rule>
+    <rule id="12dcad9e">
+        <description>Created after removal of "Der Datentyp struct" from Help Instance</description>
+        <accepts>struct.html</accepts>
+    </rule>
 </rules>

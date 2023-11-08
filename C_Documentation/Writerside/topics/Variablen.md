@@ -1,5 +1,7 @@
 # Variablen
 
+<show-structure depth="2" />
+
 Variablen sind eine sehr wichtige Komponente beim Programmieren, da man sie für verschiedenste Zwecke, wie das Speichern von bestimmten Daten benutzen kann.
 
 ## Erstellung von Variablen

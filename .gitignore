@@ -1,2 +1,5 @@
-# ignore coniguration files
+# ignore configuration files
 .vscode/
+
+# ignore github deployment files
+.github/

@@ -1,5 +1,7 @@
 # char
 
+<show-structure depth="2"/>
+
 ## Zeichen
 
 Der Datentyp `char` hat noch eine weitere wichtige Funktion, nämlich das Speichern von Zeichen und Zeichenketten.

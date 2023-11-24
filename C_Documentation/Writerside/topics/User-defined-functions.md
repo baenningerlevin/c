@@ -1,5 +1,7 @@
 # User-defined functions
 
+<show-structure depth="2"/>
+
 Um sich eine Funktion besser vorstellen zu können, fangen wir mit einem Beispiel an:
 
 ```C

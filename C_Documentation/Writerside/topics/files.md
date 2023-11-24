@@ -1,5 +1,7 @@
 # Files
 
+<show-structure depth="2"/>
+
 Eine Datei ist ein Container, in welchem Daten gespeichert werden können.
 
 ## Warum braucht es Files?

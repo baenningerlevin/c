@@ -1,5 +1,7 @@
 # Funktionen
 
+<show-structure depth="2"/>
+
 Eine Funktion ist ein Codeblock, der eine spezielle Aufgabe erledigt.
 
 Wenn man beispielsweise ein Programm machen muss, dass die Aufgabe hat einen Kreis zu zeichnen und den Kreis zu färben. Um dieses Problem zu lösen, kann mann zwei Funktionen erstellen:

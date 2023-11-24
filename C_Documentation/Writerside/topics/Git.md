@@ -1,5 +1,7 @@
 # Git
 
+<show-structure depth="2"/>
+
 ## Git konfigurieren
 
 Zuerst müssen wir einen Usernamen und eine E-Mail konfigurieren. Das geht mit folgenden Befehlen:

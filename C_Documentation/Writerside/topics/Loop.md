@@ -1,5 +1,7 @@
 # Loops
 
+<show-structure depth="2"/>
+
 Im Programmieren wird ein Loop dazu genutzt, einen Codeblock so lange zu wiederholen, bis die spezifizierte Kondition nicht mehr erfüllt wird.
 
 ## for loop
@@ -27,7 +29,7 @@ for (initializationStatement; testExpression; updateStatement)
 4. Wieder wird die Aktualisierungsanweisung `++i` ausgeführt und der Testausdruck `i < 11` ausgewertet. Dieser Prozess wird so lange fortgesetzt, bis `i` 11 wird.
 5. Wenn `i` 11 wird, ist `i < 11` falsch, und die `for`-Schleife wird beendet.
 
-### while, do..while Loop und break, continue
+## while, do..while Loop und break, continue
 
 ![while_1](while_do_while_01.png)
 

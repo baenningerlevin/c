@@ -1,5 +1,7 @@
 # Numerische Datentypen
 
+<show-structure depth="2"/>
+
 Bei den meisten Datentypen gibt es spezielle Verhaltensweisen, die geklärt werden müssen.
 
 ## Overflow

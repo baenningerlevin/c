@@ -1,5 +1,7 @@
 # bool
 
+<show-structure depth="2"/>
+
 Es gibt noch den Datentyp `bool`, welcher anzeigen kann, ob eine Aussage `true` oder `false` ist. Man muss diesen Datentyp über eine externe Bibliothek hinzufügen.
 
 ```C

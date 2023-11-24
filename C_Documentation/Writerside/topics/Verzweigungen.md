@@ -1,5 +1,7 @@
 # Verzweigungen
 
+<show-structure depth="2"/>
+
 ## if
 
 Die Syntax eines `if`-Statements sieht folgendermassen aus:

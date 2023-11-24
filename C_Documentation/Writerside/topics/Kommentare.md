@@ -1,5 +1,7 @@
 # Kommentare
 
+<show-structure depth="2"/>
+
 Kommentare sind ein guter Weg, Informationen zu seinem Code zu geben. Das ist einerseits vorteilhaft für die Kollegen andererseits auch für sich selbst, da wenn man ein Jahr später den Code anschaut, vielleicht nicht mehr alles versteht.
 
 Auch sind sie gut um Code zu testen, da man damit einzelne Codeblöcke weglassen kann, da Kommentare vom Compiler komplett ignoriert werden.

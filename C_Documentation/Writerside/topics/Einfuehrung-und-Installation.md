@@ -1,5 +1,7 @@
 # Einführung und Installation
 
+<show-structure depth="2"/>
+
 ## Die C-Programmiersprache
 C ist eine der ältesten Programmiersprachen. Sie wurde in den 70er-Jahren entwickelt und ist eine sehr maschinennahe Sprache, was sie sehr mächtig macht. C zu lernen ist eine gute Methode, um sich einen leichteren Zugang zu komplexeren Programmiersprachen zu ermöglichen. Das Wissen, das beim Lernen von C angeeignet wird, kann in fast jeder anderen Sprache nützlich sein.
 

@@ -1,5 +1,7 @@
 # GitHub
 
+<show-structure depth="2"/>
+
 ## Was ist GitHub?
 
 GitHub ist ein webbasierter Dienst, der Entwicklern hilft, ihren Code zu speichern, zu verwalten und Änderungen an ihrem Code zu verfolgen und zu kontrollieren.

@@ -1,5 +1,7 @@
 # Structure
 
+<show-structure depth="2"/>
+
 In C, ein `struct` (oder `structure`) ist eine Kollektion von Variablen (können verschiedene Datentypen haben) unter einem einzigen Namen.
 
 ## Syntax

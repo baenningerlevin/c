@@ -3,3 +3,6 @@
 
 # ignore github deployment files
 .github/
+
+# ignore all .exe files
+*.exe

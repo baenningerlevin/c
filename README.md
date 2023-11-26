@@ -13,4 +13,4 @@ This repository contains all the materials for the internal C Programming course
 7. Structures and Unions
 8. File I/O
 
-Furthermore there is a folder with completed exercises and a folder for the online documentation.
+Furthermore there is a folder for the documentation of C.

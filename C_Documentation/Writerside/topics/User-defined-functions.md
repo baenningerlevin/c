@@ -94,7 +94,9 @@ return (a+b);
 Der Wert des `return statements` muss mit dem Typen der Funktion übereinstimmen.
 
 <seealso>
-    <category ref="useful">
-        <a href="https://www.programiz.com/c-programming/c-functions">C Functions</a>
+    <category ref="weitere">
+        <a href="https://www.programiz.com/c-programming/c-user-defined-functions">Programiz - User-defined Functions</a>
+        <a href="https://www.programiz.com/c-programming/types-user-defined-functions">Programiz - Funktionstypen</a>
+        <a href="https://www.programiz.com/c-programming/c-recursion">Programiz - Rekursion</a>
     </category>
 </seealso>

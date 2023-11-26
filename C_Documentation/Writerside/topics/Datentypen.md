@@ -19,3 +19,8 @@
 | **long double**                                 | 3.4E-4932 bis 1.1E+4932 (19 Kommastellen)                | 16 Byte       | `%Lf`                |
 | **bool**                                        | 0 bis 1                                                  | 1 Byte        | `%d`                 |
 
+<seealso>
+    <category ref="weitere">
+        <a href="https://www.programiz.com/c-programming/c-data-types">Programiz - Datentypen</a>
+    </category>
+</seealso>

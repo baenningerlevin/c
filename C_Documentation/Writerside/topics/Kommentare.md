@@ -25,3 +25,9 @@ Mehrzeilige Kommentare werden so gebildet:
 
 */
 ```
+
+<seealso>
+    <category ref="weitere">
+        <a href="https://www.programiz.com/c-programming/comments">Programiz - Kommentare</a>
+    </category>
+</seealso>

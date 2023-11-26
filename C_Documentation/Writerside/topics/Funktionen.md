@@ -56,3 +56,9 @@ Die Ausführung fängt bei der `main()`-Funktion an. Wenn der Compiler zu `funct
 Jetzt fängt der Compiler an, den Code in der Funktion `functionName()` zu kompilieren. 
 
 Nachdem die Funktion fertig ist, geht sie zurück zur `main()`-Funktion.
+
+<seealso>
+    <category ref="weitere">
+        <a href="https://www.programiz.com/c-programming/c-functions">Programiz - Funktionen</a>
+    </category>
+</seealso>

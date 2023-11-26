@@ -110,3 +110,9 @@ Die `expression` wird einmal ausgewertet und mit den Werten der einzelnen `case`
 
 ![Bespiel switch statement](Bild9.png)
 
+<seealso>
+    <category ref="weitere">
+        <a href="https://www.programiz.com/c-programming/c-if-else-statement">Programiz - if..else</a>
+        <a href="https://www.programiz.com/c-programming/c-switch-case-statement">Programiz - switch..case</a>
+    </category>
+</seealso>

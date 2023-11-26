@@ -1,4 +1,4 @@
-# Mathematik
+# Operatoren
 
 <show-structure depth="2" />
 
@@ -70,3 +70,9 @@ int num1 = 5, num2 = 5, num3 = 10;
 !(num1 != num2); // 1
 !(num1 == num2); // 0
 ```
+
+<seealso>
+    <category ref="weitere">
+        <a href="https://www.programiz.com/c-programming/c-operators">Programiz - Operatoren</a>
+    </category>
+</seealso>

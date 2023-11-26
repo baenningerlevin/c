@@ -2,5 +2,5 @@
 <!DOCTYPE categories
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/categories.dtd">
 <categories>
-    <category id="useful" name="Useful Resources" order="1"/>
+    <category id="weitere" name="Weitere Ressourcen" order="1"/>
 </categories>

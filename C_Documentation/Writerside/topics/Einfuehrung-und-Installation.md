@@ -12,7 +12,7 @@ Um die C-Programmiersprache anwenden zu können, benötigt man zwei Dinge:
 - Compiler
 
 ### Editor
-Normalerweise benutzt man Visual Studio Code als Quelltext-Editor. Dieser ist bereits bekannt aus dem Modul PowerShell. 
+Wir benutzen Visual Studio Code als Quelltext-Editor. Dieser ist bereits bekannt aus dem Modul PowerShell. 
 
 #### Extensions
 
@@ -52,7 +52,7 @@ int main()
 Danach speichert man das File mit `Ctrl+S`. Oben rechts kann man den Code ausführen. Nun sollte im Terminal der Text `Subscribe Now!` angezeigt werden.
 
 <seealso>
-    <category ref="useful">
+    <category ref="weitere">
         <a href="https://code.visualstudio.com/">Visual Studio Code</a>
         <a href="https://techdecodetutorials.com/download/">MinGW</a>
     </category>

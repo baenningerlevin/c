@@ -59,3 +59,9 @@ printf("Input is: &s");
 ```
 
 Die `100` ist dabei durch die Grösse des Strings zu ersetzen.
+
+<seealso>
+    <category ref="weitere">
+        <a href="https://www.programiz.com/c-programming/c-input-output">Programiz - Input/Output</a>
+    </category>
+</seealso>

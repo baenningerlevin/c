@@ -161,3 +161,10 @@ Citizenship No.: 1984
 Salary: 2500.00
 ```
 
+<seealso>
+    <category ref="weitere">
+        <a href="https://www.programiz.com/c-programming/c-structures">Programiz - Struct</a>
+        <a href="https://www.programiz.com/c-programming/c-structures-pointers">Programiz - Structs und Pointers</a>
+        <a href="https://www.programiz.com/c-programming/c-structure-function">Programiz - Structs und Funktionen</a>
+    </category>
+</seealso>

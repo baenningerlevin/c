@@ -50,3 +50,11 @@ for (initializationStatement; testExpression; updateStatement)
 ![while_9](while_do_while_09.png)
 
 ![while_10](while_do_while_10.png)
+
+<seealso>
+    <category ref="weitere">
+        <a href="https://www.programiz.com/c-programming/c-for-loop">Programiz - for Loop</a>
+        <a href="https://www.programiz.com/c-programming/c-do-while-loops">Programiz - while Loop</a>
+        <a href="https://www.programiz.com/c-programming/c-break-continue-statement">Programiz - break und continue</a>
+    </category>
+</seealso>

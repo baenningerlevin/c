@@ -186,7 +186,9 @@ Value of c: 2
 ```
 
 <seealso style="links">
-    <category ref="useful">
+    <category ref="weitere">
         <a href="https://www.programiz.com/c-programming/c-pointers">Programiz - Pointers</a>
+        <a href="https://www.programiz.com/c-programming/c-pointers-arrays">Programiz - Pointers und Arrays</a>
+        <a href="https://www.programiz.com/c-programming/c-pointer-functions">Programiz - Pointers und Funktionen</a>
     </category> 
 </seealso>

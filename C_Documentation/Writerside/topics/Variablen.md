@@ -46,3 +46,9 @@ Wenn man versucht den Wert einer Konstante zu aktualisieren, gibt es einer Kompi
 const float PI = 3.14159;
 PI = 2.9; // ERROR
 ```
+
+<seealso>
+    <category ref="weitere">
+        <a href="https://www.programiz.com/c-programming/c-variables-constants">Programiz - Variablen und Konstanten</a>
+    </category>
+</seealso>

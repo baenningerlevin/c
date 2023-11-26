@@ -155,3 +155,9 @@ int main()
 ```
 
 Andere Funktionen, wie `fgetchar()` und `fputc()` sind ähnlich zu verstehen.
+
+<seealso>
+    <category ref="weitere">
+        <a href="https://www.programiz.com/c-programming/c-file-input-output">Programiz - Files Input/Output</a> 
+    </category>
+</seealso>

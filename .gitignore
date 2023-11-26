@@ -1,8 +1,5 @@
 # ignore configuration files
 .vscode/
 
-# ignore github deployment files
-.github/
-
 # ignore all .exe files
 *.exe
